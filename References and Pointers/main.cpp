@@ -1,14 +1,11 @@
-//
-//  main.cpp
-//  References and Pointers
-//
-//  Created by Sam Hart on 21/04/2025.
-//
-
 #include <iostream>
+#include <string>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    std::string text = "abc";
+    std::string &letters = text;
+
+    std::cout << text << "\n";
+    std::cout << letters << "\n";
 }
