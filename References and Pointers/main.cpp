@@ -19,4 +19,12 @@ int main()
     std::cout << pointer << "\n";
     // Outputs the variable's value using the pointer
     std::cout << *pointer << "\n";
+
+    std::cout << "\n";
+    // Change the pointer's value
+    *pointer = "def";
+    // Outputs the new value of the pointer
+    std::cout << *pointer << "\n";
+    // Outputs the first variables new value
+    std::cout << text << "\n";
 }
