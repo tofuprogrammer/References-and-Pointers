@@ -3,7 +3,7 @@
 
 int main()
 {
-    // Creating and using references
+    // References
     std::string text = "abc";
     std::string &letters = text; // & can be used to obtain the memory address of a variable
     std::string* pointer = &text; // A pointer stores a memory address as its value
@@ -15,4 +15,8 @@ int main()
     std::cout << "\n";
     // Outputs the memory address
     std::cout << &letters << "\n";
+    // Outputs the memory address using the pointer
+    std::cout << pointer << "\n";
+    // Outputs the variable's value using the pointer
+    std::cout << *pointer << "\n";
 }
